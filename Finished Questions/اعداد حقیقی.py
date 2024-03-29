@@ -16,3 +16,8 @@ def real_numbers(xlist):
     return ylist
 
 print(real_numbers(['1.5e+2' ,'3.', '1.1.1', '1+e5']))
+xlist = []
+x = input()
+while x != None:
+    xlist.append(x)
+    
