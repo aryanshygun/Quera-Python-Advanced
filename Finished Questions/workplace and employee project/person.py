@@ -1,5 +1,3 @@
-# https://quera.org/college/3078/chapter/8773/lesson/29594/?comments_page=2&comments_filter=ALL&submissions_page=1
-
 import math
 
 class Person:
@@ -27,8 +25,10 @@ class Person:
     
     @staticmethod
     def calc_all():
-        
-    
+        s = 0
+        for it in Person.instances:
+            s += it.calc()
+        return s
 
 
     def get_job(self):
