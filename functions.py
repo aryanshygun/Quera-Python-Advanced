@@ -1,0 +1,1 @@
+pygame.draw.polygon(screen, color, [(int(user_input[2]), int(user_input[3])), (int(user_input[4]), int(user_input[5])), (int(user_input[6]), int(user_input[7])), (int(user_input[8]), int(user_input[9]))], font_size)
